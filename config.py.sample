@@ -1,0 +1,11 @@
+# LDAP connection configuration
+LDAP_SERVER="ldap://localhost"
+LDAP_BASE_DN="dc=example,dc=org"
+LDAP_ENABLE_TLS=False
+LDAP_CA_PATH=""
+LDAP_BINDER="cn=admin,dc=example,dc=org"
+LDAP_BINDER_CREDENTIAL=""
+
+# LDAP management configuration
+ADMIN_GROUPS = ["admin"]
+
